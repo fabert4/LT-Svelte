@@ -46,5 +46,8 @@
 	"type": "module",
 	"dependencies": {
 		"idb": "^7.1.1"
+	},
+	"engines": {
+		"node": ">=16.14.0"
 	}
 }
