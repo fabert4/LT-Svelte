@@ -67,7 +67,7 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -76,9 +76,9 @@
             <th scope="row" class="py-3 px-6 text-base">Uploads: </th>
             <td class="py-3 px-6">None</td>
         </tr>
-        <TableBodyRow>
-            <TableBodyCell>#4831</TableBodyCell>
-            <TableBodyCell>
+        <TableBodyRow class="bg-gray-300">
+            <TableBodyCell class="bg-gray-300">#4832</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">
                 <Button color="red" class="bg-red-500">
                     <Chevron>Assign Dock</Chevron>
                 </Button>
@@ -95,11 +95,11 @@
                 </Dropdown>
             </TableBodyCell>
 
-            <TableBodyCell>A1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 13:59</TableBodyCell>
-            <TableBodyCell>B1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 14:00</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">A1234</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">B1234</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
@@ -108,7 +108,7 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -118,7 +118,7 @@
             <td class="py-3 px-6">picture.png</td>
         </tr>
         <TableBodyRow>
-            <TableBodyCell>#4831</TableBodyCell>
+            <TableBodyCell>#4833</TableBodyCell>
             <TableBodyCell>
                 <Button color="green" class="bg-green-500">
                     <Chevron>Dock {group2}</Chevron>
@@ -148,7 +148,7 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -158,8 +158,8 @@
             <td class="py-3 px-6">None</td>
         </tr>
         <TableBodyRow>
-            <TableBodyCell>#4831</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">#4834</TableBodyCell>
+            <TableBodyCell class="bg-gray-300" >
                 <Button color="green" class="bg-green-500">
                     <Chevron>Dock {group2}</Chevron>
                 </Button>
@@ -175,11 +175,11 @@
                     </li>
                 </Dropdown>
             </TableBodyCell>
-            <TableBodyCell>A1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 13:59</TableBodyCell>
-            <TableBodyCell>B1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 14:00</TableBodyCell>
-            <TableBodyCell>
+            <TableBodyCell class="bg-gray-300">A1234</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">B1234</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
@@ -188,7 +188,7 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
