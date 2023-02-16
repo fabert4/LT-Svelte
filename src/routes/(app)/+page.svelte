@@ -27,13 +27,13 @@
         Orders (4)
     </caption>
     <TableHead>
-        <TableHeadCell>Identifier</TableHeadCell>
-        <TableHeadCell>Dock</TableHeadCell>
-        <TableHeadCell>Sender Ref</TableHeadCell>
-        <TableHeadCell>Pickup Date</TableHeadCell>
-        <TableHeadCell>Receiver Ref</TableHeadCell>
-        <TableHeadCell>Delivery Date</TableHeadCell>
-        <TableHeadCell>Upload/Notes</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Identifier</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Dock</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Sender Ref</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Pickup Date</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Receiver Ref</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Delivery Date</TableHeadCell>
+        <TableHeadCell class="font-bold text-lg">Upload/Notes</TableHeadCell>
     </TableHead>
     <TableBody class="divide-y">
         <TableBodyRow>
@@ -67,13 +67,13 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
-            <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
+        <tr class=" text-gray-900 dark:text-white bg-white divide-y h-0">
+            <th scope="row" class="py-3 px-6">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
-            <th scope="row" class="py-3 px-6 text-base">Notes: </th>
+            <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3">Assign Dock 3</td>
-            <th scope="row" class="py-3 px-6 text-base">Uploads: </th>
+            <th scope="row" class="py-3 px-6">Uploads: </th>
             <td class="py-3 px-6">None</td>
         </tr>
         <TableBodyRow class="bg-gray-300">
@@ -108,13 +108,13 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
-            <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
+        <tr class=" text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
+            <th scope="row" class="py-3 px-6 ">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
-            <th scope="row" class="py-3 px-6 text-base">Notes: </th>
+            <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3 px-6">None</td>
-            <th scope="row" class="py-3 px-6 text-base">Uploads: </th>
+            <th scope="row" class="py-3 px-6 ">Uploads: </th>
             <td class="py-3 px-6">picture.png</td>
         </tr>
         <TableBodyRow>
@@ -148,13 +148,13 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
-            <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
+        <tr class=" text-gray-900 dark:text-white bg-white divide-y h-0">
+            <th scope="row" class="py-3 px-6 ">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
-            <th scope="row" class="py-3 px-6 text-base">Notes: </th>
+            <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3 px-6">None</td>
-            <th scope="row" class="py-3 px-6 text-base">Uploads: </th>
+            <th scope="row" class="py-3 px-6 ">Uploads: </th>
             <td class="py-3 px-6">None</td>
         </tr>
         <TableBodyRow>
@@ -188,13 +188,13 @@
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
-            <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
+        <tr class=" text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
+            <th scope="row" class="py-3 px-6 ">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
-            <th scope="row" class="py-3 px-6 text-base">Notes: </th>
+            <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="">Pick up no earlier than 13:00</td>
-            <th scope="row" class="py-3 px-6 text-base">Uploads: </th>
+            <th scope="row" class="py-3 px-6 ">Uploads: </th>
             <td class="py-3 px-6">video.mp3</td>
         </tr>
     </TableBody>
