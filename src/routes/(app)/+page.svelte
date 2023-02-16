@@ -60,14 +60,14 @@
             <TableBodyCell>7 February 2023 14:00</TableBodyCell>
             <TableBodyCell>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/126/126477.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/6sNqYe6.png" height="16px" width="16px">
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -101,14 +101,14 @@
             <TableBodyCell>7 February 2023 14:00</TableBodyCell>
             <TableBodyCell>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/126/126477.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/6sNqYe6.png" height="16px" width="16px">
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -141,14 +141,14 @@
             <TableBodyCell>7 February 2023 14:00</TableBodyCell>
             <TableBodyCell>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/126/126477.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/6sNqYe6.png" height="16px" width="16px">
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
@@ -181,14 +181,14 @@
             <TableBodyCell>7 February 2023 14:00</TableBodyCell>
             <TableBodyCell>
                 <Button>
-                    <img src="https://icons.veryicon.com/png/o/miscellaneous/standard-general-linear-icon/cloud-upload-14.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
                 </Button>
                 <Button>
-                    <img src="https://cdn-icons-png.flaticon.com/512/4021/4021693.png" height="16px" width="16px">
+                    <img src="https://i.imgur.com/6sNqYe6.png" height="16px" width="16px">
                 </Button>
             </TableBodyCell>
         </TableBodyRow>
-        <tr class="font-semibold text-gray-900 dark:text-white bg-white divide-y h-0">
+        <tr class="font-semibold text-gray-900 dark:text-white bg-gray-100 divide-y h-0">
             <th scope="row" class="py-3 px-6 text-base">Shipment Details: </th>
             <td class="py-3">Amount: 22 CC</td>
             <td class="py-3 px-6">Destination: Lidl Köln</td>
