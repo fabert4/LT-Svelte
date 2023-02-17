@@ -34,7 +34,7 @@
 
 <div id="loginDiv">
     <form class="flex flex-col space-y-6" on:submit|preventDefault={login}>
-        <img src="src/lib/assets/img/Cargoledger.png" alt="Logo" width="500" height="30">
+        <img src="https://i.imgur.com/dwOw9rX.png" alt="Logo" width="500" height="30">
         <h1 class="text-center">Sign in to the Loadmaster Application</h1>
         <ButtonGroup>
             <InputAddon>
