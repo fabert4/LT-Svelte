@@ -25,12 +25,12 @@
 
 <div class="flex flex-col h-screen">
     <Topbar bind:user={data.authenticated} />
-    <div class="flex content-height bg-gray-200">
+    <div class=" bg-white">
 <!--        <div class="hidden flex-col" class:lg:flex={!fullPage}>-->
 <!--            <Sidebar system={data.system} />-->
 <!--        </div>-->
         <main
-                class="flex flex-col flex-1 mx-auto gap-2 overflow-auto pt-2 lg:pt-8 pb-0 lg:pb-8 px-1 lg:px-8"
+                class=" overflow-auto "
                 class:lg:flex-initial={!expand}
         >
             <slot />
