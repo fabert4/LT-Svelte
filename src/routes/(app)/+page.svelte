@@ -28,7 +28,7 @@
 
 <!--<About bind:about={data.system}/>-->
 
-<Table hoverable={true}>
+<Table hoverable={true} class="px-0">
     <caption class="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
         Orders (4)
     </caption>
@@ -48,7 +48,7 @@
                 <Button color="red" class="bg-red-500">
                     <Chevron>No Dock </Chevron>
                 </Button>
-                <Dropdown class="w-48 overflow-y-auto py-1 h-48">
+                <Dropdown class="w-30 overflow-y-auto py-1 h-48">
                     <DropdownItem class="font-semibold gap-2" >
                         <Radio name="group1"  bind:group={group3} value={1}>1</Radio>
                     </DropdownItem>
@@ -112,9 +112,9 @@
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell>A1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell>7 February 2023 </TableBodyCell>
             <TableBodyCell>B1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell>7 February 2023 </TableBodyCell>
             <TableBodyCell>
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
@@ -126,8 +126,8 @@
         </TableBodyRow>
         <tr class=" text-gray-900 dark:text-white bg-white divide-y h-0">
             <th scope="row" class="py-3 px-6">Shipment Details: </th>
-            <td class="py-3">Amount: 22 CC</td>
-            <td class="py-3 px-6">Destination: Lidl Köln</td>
+            <td class="py-3"><strong>Amount:</strong> 22 CC</td>
+            <td class="py-3 px-6"><strong>Destination:</strong> Lidl Köln</td>
             <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3">Assign Dock 3</td>
             <th scope="row" class="py-3 px-6">Uploads: </th>
@@ -204,9 +204,9 @@
             </TableBodyCell>
 
             <TableBodyCell  class="bg-gray-300">A1234</TableBodyCell>
-            <TableBodyCell  class="bg-gray-300">7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">7 February 2023 </TableBodyCell>
             <TableBodyCell  class="bg-gray-300">B1234</TableBodyCell>
-            <TableBodyCell  class="bg-gray-300">7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell  class="bg-gray-300">8 February 2023 </TableBodyCell>
             <TableBodyCell  class="bg-gray-300">
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
@@ -218,8 +218,8 @@
         </TableBodyRow>
         <tr class=" text-gray-900 dark:text-white bg-gray-300 divide-y h-0">
             <th scope="row" class="py-3 px-6 ">Shipment Details: </th>
-            <td class="py-3">Amount: 22 CC</td>
-            <td class="py-3 px-6">Destination: Lidl Köln</td>
+            <td class="py-3"><strong>Amount:</strong> 22 CC</td>
+            <td class="py-3 px-6"><strong>Destination:</strong> Lidl Köln</td>
             <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3 px-6">None</td>
             <th scope="row" class="py-3 px-6 ">Uploads: </th>
@@ -295,9 +295,9 @@
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell>A1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell>7 February 2023 </TableBodyCell>
             <TableBodyCell>B1234</TableBodyCell>
-            <TableBodyCell>7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell>8 February 2023 </TableBodyCell>
             <TableBodyCell>
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
@@ -309,8 +309,8 @@
         </TableBodyRow>
         <tr class=" text-gray-900 dark:text-white bg-white divide-y h-0">
             <th scope="row" class="py-3 px-6 ">Shipment Details: </th>
-            <td class="py-3">Amount: 22 CC</td>
-            <td class="py-3 px-6">Destination: Lidl Köln</td>
+            <td class="py-3"><strong>Amount:</strong> 22 CC</td>
+            <td class="py-3 px-6"><strong>Destination:</strong> Lidl Köln</td>
             <th scope="row" class="py-3 px-6 ">Notes: </th>
             <td class="py-3 px-6">None</td>
             <th scope="row" class="py-3 px-6 ">Uploads: </th>
@@ -386,9 +386,9 @@
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell class="bg-gray-300">A1234</TableBodyCell>
-            <TableBodyCell class="bg-gray-300">7 February 2023 13:59</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">6 February 2023 </TableBodyCell>
             <TableBodyCell class="bg-gray-300">B1234</TableBodyCell>
-            <TableBodyCell class="bg-gray-300">7 February 2023 14:00</TableBodyCell>
+            <TableBodyCell class="bg-gray-300">9 February 2023 </TableBodyCell>
             <TableBodyCell class="bg-gray-300">
                 <Button>
                     <img src="https://i.imgur.com/NjbjVZk.png" height="16px" width="16px">
