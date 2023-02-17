@@ -14,12 +14,16 @@
     } from 'flowbite-svelte';
     import {Dropdown, DropdownItem, DropdownDivider, DropdownHeader} from 'flowbite-svelte'
     import {goto} from "$app/navigation";
+    import {onMount} from "svelte";
 
     let group1 = 2;
     let group2 = 3;
     let group3 = 0;
     let group4 = 0;
     export let data: PageData;
+
+
+
 </script>
 
 <!--<About bind:about={data.system}/>-->
@@ -42,11 +46,11 @@
             <TableBodyCell class="font-extrabold">#4831</TableBodyCell>
             <TableBodyCell>
                 <Button color="red" class="bg-red-500">
-                    <Chevron>Assign Dock #{group3}</Chevron>
+                    <Chevron>No Dock </Chevron>
                 </Button>
                 <Dropdown class="w-48 overflow-y-auto py-1 h-48">
                     <DropdownItem class="font-semibold gap-2" >
-                        <Radio name="group1" bind:group={group3} value={1}>1</Radio>
+                        <Radio name="group1"  bind:group={group3} value={1}>1</Radio>
                     </DropdownItem>
                     <DropdownItem class=" font-semibold gap-2">
                         <Radio name="group1" bind:group={group3} value={2}>2</Radio>
@@ -132,8 +136,8 @@
         <TableBodyRow class="bg-gray-300">
             <TableBodyCell class="bg-gray-300">#4832</TableBodyCell>
             <TableBodyCell class="bg-gray-300">
-                <Button color="red" class="bg-red-500">
-                    <Chevron>Assign Dock #{group4}</Chevron>
+                <Button color="red" class="bg-red-500" id="test4">
+                    <Chevron >No Dock</Chevron>
                 </Button>
                 <Dropdown class="w-48 overflow-y-auto py-1 h-48">
                     <DropdownItem class="font-semibold gap-2" >
@@ -224,8 +228,8 @@
         <TableBodyRow>
             <TableBodyCell>#4833</TableBodyCell>
             <TableBodyCell>
-                <Button color="green" class="bg-green-500">
-                    <Chevron>Dock {group1}</Chevron>
+                <Button color="green">
+                    <Chevron>Dock #{group1}</Chevron>
                 </Button>
                 <Dropdown class="w-48 overflow-y-auto py-1 h-48">
                     <DropdownItem class="font-semibold gap-2" >
@@ -315,8 +319,8 @@
         <TableBodyRow>
             <TableBodyCell  class="bg-gray-300">#4834</TableBodyCell>
             <TableBodyCell class="bg-gray-300" >
-                <Button color="green" class="bg-green-500">
-                    <Chevron>Dock {group2}</Chevron>
+                <Button color="green" >
+                    <Chevron>Dock #{group2}</Chevron>
                 </Button>
                 <Dropdown class="w-48 overflow-y-auto py-1 h-48">
                     <DropdownItem class="font-semibold gap-2" >
