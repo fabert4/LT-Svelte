@@ -17,6 +17,8 @@
 
     let group1 = 2;
     let group2 = 3;
+    let group3 = 0;
+    let group4 = 0;
     export let data: PageData;
 </script>
 
@@ -37,21 +39,72 @@
     </TableHead>
     <TableBody class="divide-y">
         <TableBodyRow>
-            <TableBodyCell>#4831</TableBodyCell>
+            <TableBodyCell class="font-extrabold">#4831</TableBodyCell>
             <TableBodyCell>
                 <Button color="red" class="bg-red-500">
-                    <Chevron>Assign Dock</Chevron>
+                    <Chevron>Assign Dock #{group3}</Chevron>
                 </Button>
-                <Dropdown class="w-44 p-3 space-y-3 text-sm">
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={1}>1</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={2}>2</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={3}>3</Radio>
-                    </li>
+                <Dropdown class="w-48 overflow-y-auto py-1 h-48">
+                    <DropdownItem class="font-semibold gap-2" >
+                        <Radio name="group1" bind:group={group3} value={1}>1</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={2}>2</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={3}>3</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={4}>4</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={5}>5</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={6}>6</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={7}>7</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={8}>8</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={9}>9</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={10}>10</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={11}>11</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={12}>12</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={13}>13</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={14}>14</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={15}>15</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={16}>16</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={17}>17</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={18}>18</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={19}>19</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group3} value={19}>20</Radio>
+                    </DropdownItem>
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell>A1234</TableBodyCell>
@@ -80,18 +133,69 @@
             <TableBodyCell class="bg-gray-300">#4832</TableBodyCell>
             <TableBodyCell class="bg-gray-300">
                 <Button color="red" class="bg-red-500">
-                    <Chevron>Assign Dock</Chevron>
+                    <Chevron>Assign Dock #{group4}</Chevron>
                 </Button>
-                <Dropdown class="w-44 p-3 space-y-3 text-sm">
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={1}>1</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={2}>2</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={3}>3</Radio>
-                    </li>
+                <Dropdown class="w-48 overflow-y-auto py-1 h-48">
+                    <DropdownItem class="font-semibold gap-2" >
+                        <Radio name="group1" bind:group={group4} value={1}>1</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={2}>2</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={3}>3</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={4}>4</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={5}>5</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={6}>6</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={7}>7</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={8}>8</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={9}>9</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={10}>10</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={11}>11</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={12}>12</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={13}>13</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={14}>14</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={15}>15</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={16}>16</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={17}>17</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={18}>18</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={19}>19</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group4} value={19}>20</Radio>
+                    </DropdownItem>
                 </Dropdown>
             </TableBodyCell>
 
@@ -121,18 +225,69 @@
             <TableBodyCell>#4833</TableBodyCell>
             <TableBodyCell>
                 <Button color="green" class="bg-green-500">
-                    <Chevron>Dock {group2}</Chevron>
+                    <Chevron>Dock {group1}</Chevron>
                 </Button>
-                <Dropdown class="w-44 p-3 space-y-3 text-sm">
-                    <li>
+                <Dropdown class="w-48 overflow-y-auto py-1 h-48">
+                    <DropdownItem class="font-semibold gap-2" >
                         <Radio name="group1" bind:group={group1} value={1}>1</Radio>
-                    </li>
-                    <li>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
                         <Radio name="group1" bind:group={group1} value={2}>2</Radio>
-                    </li>
-                    <li>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
                         <Radio name="group1" bind:group={group1} value={3}>3</Radio>
-                    </li>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={4}>4</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={5}>5</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={6}>6</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={7}>7</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={8}>8</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={9}>9</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={10}>10</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={11}>11</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={12}>12</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={13}>13</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={14}>14</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={15}>15</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={16}>16</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={17}>17</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={18}>18</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={19}>19</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group1} value={19}>20</Radio>
+                    </DropdownItem>
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell>A1234</TableBodyCell>
@@ -163,16 +318,67 @@
                 <Button color="green" class="bg-green-500">
                     <Chevron>Dock {group2}</Chevron>
                 </Button>
-                <Dropdown class="w-44 p-3 space-y-3 text-sm">
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={1}>1</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={2}>2</Radio>
-                    </li>
-                    <li>
-                        <Radio name="group1" bind:group={group1} value={3}>3</Radio>
-                    </li>
+                <Dropdown class="w-48 overflow-y-auto py-1 h-48">
+                    <DropdownItem class="font-semibold gap-2" >
+                        <Radio name="group1" bind:group={group2} value={1}>1</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={2}>2</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={3}>3</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={4}>4</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={5}>5</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={6}>6</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={7}>7</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={8}>8</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={9}>9</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={10}>10</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={11}>11</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={12}>12</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={13}>13</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={14}>14</Radio>
+                    </DropdownItem>
+                    <DropdownItem class=" font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={15}>15</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={16}>16</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={17}>17</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={18}>18</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={19}>19</Radio>
+                    </DropdownItem>
+                    <DropdownItem class="font-semibold gap-2">
+                        <Radio name="group1" bind:group={group2} value={19}>20</Radio>
+                    </DropdownItem>
                 </Dropdown>
             </TableBodyCell>
             <TableBodyCell class="bg-gray-300">A1234</TableBodyCell>
@@ -197,6 +403,34 @@
             <th scope="row" class="py-3 px-6 ">Uploads: </th>
             <td class="py-3 px-6">video.mp3</td>
         </tr>
+        <TableBodyRow>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+        </TableBodyRow>
+        <TableBodyRow>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+        </TableBodyRow>
+        <TableBodyRow>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+            <TableBodyCell> <br></TableBodyCell>
+        </TableBodyRow>
+
     </TableBody>
 </Table>
 
