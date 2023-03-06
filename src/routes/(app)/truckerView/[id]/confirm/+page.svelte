@@ -1,37 +1,17 @@
-<script>
-    import {Button, ButtonGroup, Card, Input, InputAddon, Label, Listgroup} from "flowbite-svelte";
+<script lang="ts">
+    import {Button, ButtonGroup, Card, Input, Label, Listgroup} from "flowbite-svelte";
+    import {goto} from "$app/navigation";
+    import type { ShipmentModel } from '$lib/generated';
 
-    let list = [
-        {
-            name: "Dock:", email: "", value: "A1"
-        },
-        {
-            name: "Customer Reference", email: "", value: "1245"
-        },
-        {
-            name: "Destination: ", email: "", value: "Store Keulen"
-        },
-        {
-            name: "Sender: ", email: "", value: "OZ Hami"
-        },
-        {
-            name: "Receiver: ", email: "", value: "Lidl Deutschland"
-        },
-        {
-            name: "Pickup Date: ", email: "", value: "14-02-2023"
-        },
-        {
-            name: "Delivery Date: ", email: "", value: "15-02-2023"
-        },
-        {
-            name: "Amount: ", email: "", value: "12 CC 60 Shelves 48 Extensions"
-        },
 
-    ];
+    export let shipment: ShipmentModel;
+    export let dock = false;
+
+    // export let data: PageData;
+    // console.log(data)
 </script>
 
 <div class="flex space-x-6 ">
-
     <Card padding="xl" size="md">
         <div class="mb-6 mr-28 ">
             <div class="flex justify-between items-center mb-4">
@@ -67,7 +47,6 @@
         </div>
     </Card>
 
-
     <Card padding="xl" size="md">
         <div class="flex justify-between items-center mb-4">
             <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Shipping Details</h5>
@@ -75,20 +54,56 @@
 
             </a>
         </div>
-        <Listgroup items={list} let:item class="border-0 dark:!bg-transparent">
+        <Listgroup>
             <div class="flex items-center space-x-4">
                 <div class="flex-1 min-w-0">
                     <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
-                        {item.name}
-                    </p>
-                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">
-                        {item.email}
+                        Identifier
                     </p>
                 </div>
                 <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
-                    {item.value}
+                    <!--{data.shipment.identifier}-->
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                        Dock
+                    </p>
+                </div>
+                <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    TBA
+                </div>
+                <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+                        Identifier
+                    </p>
+                </div>
+                <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    <!--{shipment.identifier}-->
                 </div>
             </div>
         </Listgroup>
     </Card>
+<!--    <Card padding="xl" size="md">-->
+<!--        <div class="flex justify-between items-center mb-4">-->
+<!--            <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Shipping Details</h5>-->
+<!--            <a href="/" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">-->
+
+<!--            </a>-->
+<!--        </div>-->
+<!--        <Listgroup items={list} let:item class="border-0 dark:!bg-transparent">-->
+<!--            <div class="flex items-center space-x-4">-->
+<!--                <div class="flex-1 min-w-0">-->
+<!--                    <p class="text-sm font-medium text-gray-900 truncate dark:text-white">-->
+<!--                        {item.name}-->
+<!--                    </p>-->
+<!--                    <p class="text-sm text-gray-500 truncate dark:text-gray-400">-->
+<!--                        {item.email}-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">-->
+<!--                    {item.value}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </Listgroup>-->
+<!--    </Card>-->
 </div>

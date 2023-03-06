@@ -45,6 +45,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"idb": "^7.1.1"
+		"compressorjs": "^1.2.1",
+		"file-type": "^18.2.1",
+		"idb": "^7.1.1",
+		"jszip": "^3.10.1"
 	}
 }

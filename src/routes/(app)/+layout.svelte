@@ -1,6 +1,5 @@
 <script lang="ts">
     import '../../app.postcss';
-    import Sidebar from './Sidebar.svelte';
     import Topbar from './Topbar.svelte';
     import type { LayoutData } from './$types';
     import { onMount } from 'svelte';

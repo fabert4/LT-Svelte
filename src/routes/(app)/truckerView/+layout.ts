@@ -1,8 +1,7 @@
 import {DefaultService} from '$lib/generated';
 import {authorize} from '$lib/utils/Api';
-import type {LayoutLoad} from './$types';
-import {paramsToPagination} from "../../lib/utils/Pagination";
-
+import type {LayoutLoad} from '../$types';
+import {paramsToPagination} from "../../../lib/utils/Pagination";
 
 export const load: LayoutLoad = async ({url}) => {
     authorize(url);

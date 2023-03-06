@@ -16,7 +16,6 @@
     import { Icon } from '@steeze-ui/svelte-icon';
     import { Backspace, MagnifyingGlass, XMark } from '@steeze-ui/heroicons';
     import { page } from '$app/stores';
-    import Notifications from './Notifications.svelte';
     import { back, updateParam } from '$lib/utils/Routing';
 
     export let user: UserModel;
@@ -114,7 +113,6 @@
             </Button>
         </ButtonGroup>
     </form>
-    <Notifications type="icon" />
     <button>
         <Avatar id="avatar-menu" dot={{ top: false, color: 'bg-green-400' }} />
     </button>
@@ -122,10 +120,6 @@
         <DropdownHeader>
             <span class="block truncate text-sm font-medium">{user.email.value}</span>
         </DropdownHeader>
-        {#if user.authorities.some((a) => a === 'USER')}
-            <DropdownItem href="/users/{user.id}">Settings</DropdownItem>
-        {/if}
-        <DropdownDivider />
         <DropdownItem slot="footer" on:click={logout}>Sign out</DropdownItem>
     </Dropdown>
 </Navbar>

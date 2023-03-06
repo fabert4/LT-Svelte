@@ -9,6 +9,6 @@
         <Login />
     </div>
     <div class="flex">
-<!--        <slot />-->
+        <slot />
     </div>
 </div>

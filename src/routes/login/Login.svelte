@@ -26,7 +26,7 @@
             }
         });
         if (res.status === 200) {
-            goto(url ?? (window.innerWidth < 1024 ? '/jobs' : '/'));
+            goto(url ?? (window.innerWidth < 1024 ? '/' : '/'));
         }
         loading = false;
     }
